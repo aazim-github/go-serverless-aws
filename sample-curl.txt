@@ -1,0 +1,10 @@
+
+curl --header "Content-type: application/json" --request POST --data '{"email": "aazim@gmail.com", "firstName": "Aazim", "lastName": "Athar"}' ${API-Invoke-URL}
+
+curl -X GET ${API-Invoke-URL}
+
+curl -X GET ${API-Invoke-URL}\?email\=aazim@gmail.com
+
+curl --header "Content-type: application/json" --request PUT --data '{"email": "aazim@gmail.com", "firstName": "Athar", "lastName": "Aazim"}' ${API-Invoke-URL}
+
+curl -X DELETE ${API-Invoke-URL}\?email\=aazim@gmail.com
