@@ -1,3 +1,3 @@
 # go-serverless-aws
-Golang-Serverless-Project 
-API Gateway + DynamoDB + Lambda Comlpete serveless stack
+# Golang-Serverless-Project 
+# API Gateway + DynamoDB + Lambda Comlpete serveless stack
